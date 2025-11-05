@@ -32,25 +32,6 @@
 **Infra:** HTTPS, JSON APIs, GZIP, CORS  
 **DevOps:** GitHub Actions, macOS code signing & notarization
 
-## Installation
-
-```bash
-git clone https://github.com/alxndlk/wallper-app.git
-cd wallper-app
-```
-Requires macOS 14.0+, Xcode 14+, Swift 5.7+.
-
-## Project Structure
-
-```
-App/      — App entry & environment
-Core/     — Playback controllers & caching
-Network/  — API communication & device sync
-Shared/   — UI utilities & modifiers
-Store/    — State management (filters, library, likes)
-UI/       — SwiftUI views by feature
-```
-
 ## License
 
 Private project for educational and experimental purposes.
